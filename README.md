@@ -37,9 +37,11 @@ A simple event management dashboard built with Node.js and Vanilla JavaScript. T
    npm install
 3. **Create a .env file::**
    In the backend directory, create a .env file to store your environment variables. Here’s an example:
+  
    PORT=3002
    MONGODB_URI=mongodb://localhost:27017/event-management
    JWT_SECRET=your_jwt_secret
+
 4. **Run the application::**
     ```bash
    npm run dev
