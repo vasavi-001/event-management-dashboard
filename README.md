@@ -30,9 +30,10 @@ A simple event management dashboard built with Node.js and Vanilla JavaScript. T
 1. **Clone the repository:**
 
    ```bash
-  git clone https://github.com/yourusername/event-management-dashboard.git
-  cd event-management-dashboard/backend 
+   git clone https://github.com/yourusername/event-management-dashboard.git
+   cd event-management-dashboard/backend 
 2. **Install Dependencies:**
+   ```bash
    npm install
 3. **Create a .env file::**
    In the backend directory, create a .env file to store your environment variables. Here’s an example:
@@ -40,9 +41,10 @@ A simple event management dashboard built with Node.js and Vanilla JavaScript. T
    MONGODB_URI=mongodb://localhost:27017/event-management
    JWT_SECRET=your_jwt_secret
 4. **Run the application::**
+    ```bash
    npm run dev
 
-   Your server will be running on "http://localhost:3002"
+Your server will be running on "http://localhost:3002"
 
 
 
